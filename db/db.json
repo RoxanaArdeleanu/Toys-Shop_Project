@@ -1,0 +1,393 @@
+{
+  "categories": [
+    { "id": 1, "name": "Plush toys" },
+    { "id": 2, "name": "Cars" },
+    { "id": 4, "name": "Building Blocks" },
+    { "id": 5, "name": "Educational Games" },
+    { "id": 6, "name": "Board Games" },
+    { "id": 7, "name": "Outdoor Toys" },
+    { "id": 8, "name": "Action Figures" }
+  ],
+
+  "toys": [
+    {
+      "id": 1,
+      "title": "Teddy Bear",
+      "categoryId": 1,
+      "price": "49.99",
+      "image": "https://images.unsplash.com/photo-1626261816176-7767920f514e?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Teddy bears are known for their quality and adorable design. These teddy bears are popular as plush toys and gifts for loved ones."
+    },
+    {
+      "id": 2,
+      "title": "Red car",
+      "categoryId": 2,
+      "price": "59.99",
+      "image": "https://images.unsplash.com/photo-1508896694512-1eade558679c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Playing will be really interesting for the little ones with this car. Imagination and creativity will work together with your child, and he will travel all over the world with him, face interesting situations and create stories with unexpected endings."
+    },
+    {
+      "id": 4,
+      "title": "Building Blocks Deluxe Set",
+      "categoryId": 4,
+      "price": "79.99",
+      "image": "https://images.unsplash.com/photo-1539477192933-1a7dde04aa77?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Unlock creativity and learning with this deluxe set of building blocks. Endless possibilities for building and creating."
+    },
+
+    {
+      "id": 5,
+      "title": "Educational Robot",
+      "categoryId": 5,
+      "price": "69.99",
+      "image": "https://images.unsplash.com/photo-1603356033288-acfcb54801e6?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Introduce your child to robotics and coding with this fun and educational robot. Learn while having a blast!"
+    },
+    {
+      "id": 6,
+      "title": "Chess Master",
+      "categoryId": 6,
+      "price": "99.99",
+      "image": "https://images.unsplash.com/photo-1573141335932-9b22c45aa2df?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Become a chess master with this engaging and strategic board game. Perfect for honing critical thinking skills."
+    },
+    {
+      "id": 7,
+      "title": "Truck",
+      "categoryId": 7,
+      "price": "119.99",
+      "image": "https://images.unsplash.com/photo-1529651490292-99f6f9ade9e8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The truck has a flip-down cab so you can see the engine block. The exterior mirrors of the vehicle are also foldable according to the user's wishes. The handling of the body is very simple - it can be easily folded and returned to its original position."
+    },
+    {
+      "id": 9,
+      "title": "Superhero Action Figure",
+      "categoryId": 8,
+      "price": "94.99",
+      "image": "https://images.unsplash.com/photo-1558679908-541bcf1249ff?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Unleash the power of imagination with this superhero action figure. Perfect for creating epic adventures."
+    },
+
+    {
+      "id": 11,
+      "title": "Carboard boxes",
+      "categoryId": 5,
+      "price": "89.99",
+      "image": "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Cardboard stacking boxes, printed with designs from the Little Farm collection, perfect for teaching children to count to ten, stack, solve puzzles and recognize farm animals."
+    },
+    {
+      "id": 12,
+      "title": "Race Car Set",
+      "categoryId": 2,
+      "price": "49.99",
+      "image": "https://images.unsplash.com/photo-1536622978642-0d1fb05d5e1b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experience the thrill of racing with this dynamic race car set. Perfect for little speed enthusiasts."
+    },
+    {
+      "id": 13,
+      "title": "Watering cans",
+      "categoryId": 7,
+      "price": "59.99",
+      "image": "https://images.unsplash.com/photo-1527324768326-5fa4869a351e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Bathroom & Beach Soft Rubber 4pcs Toy Set - Shaped Rinse Cup/ Watering Can/ Water Scoop/ Whale Shaped Water Wheel bringing more fun to baby."
+    },
+    {
+      "id": 14,
+      "title": "Giant Jenga",
+      "categoryId": 6,
+      "price": "39.99",
+      "image": "https://images.unsplash.com/photo-1644628270163-a2ccfb778a9c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Enjoy hours of fun with this giant Jenga set. Test your skills and challenge friends and family to an exciting match."
+    },
+    {
+      "id": 15,
+      "title": "Abacus",
+      "categoryId": 5,
+      "price": "128.99",
+      "image": "https://images.unsplash.com/photo-1611957082141-c449bb2b4ada?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Ten rows of ten beads in five colors. Count all the ways to play. Count familiar items your child sees every day, such as shoes, crackers, or plates at the table."
+    },
+    {
+      "id": 16,
+      "title": "Montessori rainbow",
+      "categoryId": 5,
+      "price": "64.99",
+      "image": "https://images.unsplash.com/photo-1536293182766-c9c0c4133b55?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Inspired by the famous Waldorf rainbow, this stacking toy with 6 pieces in natural colors will grow and evolve with the little ones, they can use it from a very young age, adapting it to their developmental stage and needs, from a teething toy, a stacking and matching toy or a cookie or sand mold."
+    },
+    {
+      "id": 17,
+      "title": "Train Set Wooden",
+      "categoryId": 2,
+      "price": "54.99",
+      "image": "https://images.unsplash.com/photo-1531512721928-a2c9d1a3fb9f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Build your own railway adventure with this classic wooden train set. Perfect for hours of imaginative play."
+    },
+    {
+      "id": 19,
+      "title": "Architectural Building Set",
+      "categoryId": 4,
+      "price": "64.99",
+      "image": "https://images.unsplash.com/photo-1669225230004-dd94af125373?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Ignite the passion for architecture with this detailed building set. Create stunning structures and designs."
+    },
+    {
+      "id": 20,
+      "title": "Adventure Binoculars",
+      "categoryId": 7,
+      "price": "59.99",
+      "image": "https://images.unsplash.com/photo-1566513783362-fd923a368d6b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Explore the great outdoors with these adventure binoculars. Perfect for young explorers on exciting journeys."
+    },
+    {
+      "id": 21,
+      "title": "Cooking Playset",
+      "categoryId": 6,
+      "price": "134.99",
+      "image": "https://plus.unsplash.com/premium_photo-1684189487281-aa2d0c0fa681?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Inspire little chefs with this cooking playset. Includes utensils, pots, and pans for a fun culinary experience."
+    },
+    {
+      "id": 22,
+      "title": "Cowboy figure",
+      "categoryId": 8,
+      "price": "279.99",
+      "image": "https://images.unsplash.com/photo-1603557092510-263cac6e7ae6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Woody interactive toy with removable hat."
+    },
+    {
+      "id": 26,
+      "title": "Interactive Globe",
+      "categoryId": 5,
+      "price": "39.99",
+      "image": "https://images.unsplash.com/photo-1527422265102-22027ee90fcd?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Explore the world with this interactive globe. Learn about countries, capitals, and geographical wonders."
+    },
+    {
+      "id": 27,
+      "title": "Remote Control Helicopter",
+      "categoryId": 7,
+      "price": "249.99",
+      "image": "https://images.unsplash.com/photo-1683624307337-9f8e0b7cba4f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Take to the skies with this remote control helicopter. Perfect for outdoor adventures and thrilling flights."
+    },
+    {
+      "id": 28,
+      "title": "Groot figure",
+      "categoryId": 8,
+      "price": "158.99",
+      "image": "https://images.unsplash.com/photo-1559535332-db9971090158?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Design figurine with Groot from the Guardians of the Galaxy movies."
+    },
+    {
+      "id": 29,
+      "title": "Building Tiles",
+      "categoryId": 4,
+      "price": "54.99",
+      "image": "https://images.unsplash.com/photo-1617387247352-9a9ed2d7de81?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Create imaginative structures with these building tiles. Perfect for developing creativity and spatial skills."
+    },
+    {
+      "id": 30,
+      "title": "Military Vehicles",
+      "categoryId": 7,
+      "price": "124.99",
+      "image": "https://images.unsplash.com/photo-1683616507754-386d4a91ef3e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Meet these unique RC battle tanks that will take you to a real tank battle. Experience the thrill of battle and lots of fun with this awesome battle tank set. The set allows two opponents to fight each other."
+    },
+    {
+      "id": 31,
+      "title": "Robot Building Kit",
+      "categoryId": 4,
+      "price": "139.99",
+      "image": "https://images.unsplash.com/photo-1680731253572-92052349dd21?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Ignite creativity with this robot building kit. Kids can build and program their own robotic creations."
+    },
+    {
+      "id": 32,
+      "title": "Adventure Tent",
+      "categoryId": 7,
+      "price": "149.99",
+      "image": "https://images.unsplash.com/photo-1631500042068-71e4e797277f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Create a magical play space with this adventure tent. Ideal for indoor and outdoor imaginative play."
+    },
+    {
+      "id": 33,
+      "title": "Wooden wire maze",
+      "categoryId": 5,
+      "price": "89.99",
+      "image": "https://images.unsplash.com/photo-1501686637-b7aa9c48a882?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The child's perspective is very important, so every product is designed to encourage learning through play."
+    },
+    {
+      "id": 35,
+      "title": "Junior Scientist Microscope",
+      "categoryId": 5,
+      "price": "104.99",
+      "image": "https://images.unsplash.com/photo-1594072282291-55237b05f5a6?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Explore the microscopic world with this junior scientist microscope. Learn about cells, organisms, and more."
+    },
+    {
+      "id": 36,
+      "title": "Magic Drawing Board",
+      "categoryId": 5,
+      "price": "19.99",
+      "image": "https://images.unsplash.com/photo-1589739900266-43b2843f4c12?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "This graphic tablet offers you a practical and efficient solution to write, draw, sketch and jot down ideas. You can easily erase content at the touch of a button or partially with the Stylus pen, which allows you to save paper and protect the environment."
+    },
+    {
+      "id": 37,
+      "title": "RC Quadcopter",
+      "categoryId": 7,
+      "price": "329.99",
+      "image": "https://images.unsplash.com/photo-1533994966954-5a39c74889a4?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experience aerial adventures with this RC quadcopter. Perfect for outdoor flying and exploration."
+    },
+    {
+      "id": 38,
+      "title": "Mapple Board Game",
+      "categoryId": 6,
+      "price": "84.99",
+      "image": "https://images.unsplash.com/photo-1547638375-ebf04735d792?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Players resourcefulness and insight are put to the test when minions must be placed in strategic areas. Carcassonne is not only the name of a famous city in the south of France, but also the representation of a huge and unique fortification in the center of a complex landscape."
+    },
+    {
+      "id": 39,
+      "title": "Toy Boat",
+      "categoryId": 7,
+      "price": "74.99",
+      "image": "https://images.unsplash.com/photo-1550009375-99bb7e3bf4d2?q=80&w=1444&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Sail the seas with this boat. Perfect for outdoor water adventures and fun races."
+    },
+    {
+      "id": 40,
+      "title": "Coding Robot",
+      "categoryId": 5,
+      "price": "59.99",
+      "image": "https://images.unsplash.com/photo-1603354351149-e97b9124020d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Introduce coding with this interactive coding robot. Learn programming in a playful and engaging way."
+    },
+    {
+      "id": 41,
+      "title": "Sail boat",
+      "categoryId": 7,
+      "price": "141.99",
+      "image": "https://images.unsplash.com/photo-1487901155524-307f976ad775?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "It stimulates the interactive and creative play of children. It helps to develop fine motor skills, hand-eye coordination, dexterity and tactile sense."
+    },
+    {
+      "id": 42,
+      "title": "Monopoly Game",
+      "categoryId": 6,
+      "price": "134.99",
+      "image": "https://images.unsplash.com/photo-1589804845133-49b5e06cc415?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The Monopoly Discover game is an ideal introduction to the Monopoly universe, with simple rules and intuitive locations, perfect for children. With a two-sided game board and two different levels, this game offers the flexibility to choose the right level for your family."
+    },
+    {
+      "id": 44,
+      "title": "Robot Building Blocks",
+      "categoryId": 4,
+      "price": "129.99",
+      "image": "https://images.unsplash.com/photo-1609283040241-7a50dc4288bf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Build and create with these robot building blocks. Develop fine motor skills and imaginative play."
+    },
+    {
+      "id": 45,
+      "title": "Junior Gardening Set",
+      "categoryId": 7,
+      "price": "55.99",
+      "image": "https://images.unsplash.com/photo-1649959738550-81aa768f8c88?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Introduce gardening with this junior gardening set. Perfect for budding botanists and outdoor enthusiasts."
+    },
+
+    {
+      "id": 46,
+      "title": "Train Set Metallic",
+      "categoryId": 2,
+      "price": "34.99",
+      "image": "https://images.unsplash.com/photo-1610482613470-94f5bd5ee245?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "All aboard! Enhance imaginative play with this metallic train set. Perfect for young conductors and train enthusiasts."
+    },
+    {
+      "id": 47,
+      "title": "Puzzle Game",
+      "categoryId": 5,
+      "price": "29.99",
+      "image": "https://images.unsplash.com/photo-1612385763901-68857dd4c43c?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "With multiple psychological, social, physical and emotional benefits, the game has proven to be not only an effective tool in the child's education, but also an incentive for his growth and development."
+    },
+    {
+      "id": 48,
+      "title": "Red Ferrari",
+      "categoryId": 2,
+      "price": "109.99",
+      "image": "https://images.unsplash.com/photo-1609708536965-6e5b915b195b?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experience high-speed fun with this RC racing car. Perfect for racing enthusiasts and exciting outdoor play."
+    },
+    {
+      "id": 49,
+      "title": "Wonderlane Puzzle",
+      "categoryId": 6,
+      "price": "129.99",
+      "image": "https://images.unsplash.com/photo-1571195555904-f0fe9968ee5f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The suitable gift for young and old alice in wonderl and fans, or any jigsaw puzzle enthusiasts."
+    },
+    {
+      "id": 50,
+      "title": "Marvel Captain America",
+      "categoryId": 8,
+      "price": "254.99",
+      "image": "https://images.unsplash.com/photo-1561149877-84d268ba65b8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Marvel Legends Puff Adder BAF Ultimate Captain America figure."
+    },
+    {
+      "id": 56,
+      "title": "Spiderman Figure",
+      "categoryId": 8,
+      "price": "144.99",
+      "image": "https://images.unsplash.com/photo-1558680689-ce686c5e2fb8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "This extraordinary statuette from the Marvel Gallery collection represents one of the most beloved superheroes in the Marvel universe, namely the famous Spider-Man, caught balancing on the roof of a building in New York."
+    },
+    {
+      "id": 51,
+      "title": "Alpaca",
+      "categoryId": 1,
+      "price": "79.99",
+      "image": "https://images.unsplash.com/photo-1598931247655-fe06b102b7de?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "This large alpaca plush is the perfect gift for your alpaca loving friend and family."
+    },
+    {
+      "id": 52,
+      "title": "Teddy bear with a scarf",
+      "categoryId": 1,
+      "price": "39.99",
+      "image": "https://images.unsplash.com/photo-1576718330722-c614ecb5d887?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "With its cute appearance, this adorable extra teddy bear will become your child's favorite friend who will take it with him everywhere! The elegant bear has a scarf that gives it extra attractiveness and cuteness."
+    },
+    {
+      "id": 53,
+      "title": "Plush bunny",
+      "categoryId": 1,
+      "price": "89.99",
+      "image": "https://images.unsplash.com/photo-1567169866456-a0759b6bb0c8?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Plush bunny for girls. The toy is made of soft plush material. It is an ideal toy for small children."
+    },
+    {
+      "id": 54,
+      "title": "Cute unicorn",
+      "categoryId": 1,
+      "price": "99.99",
+      "image": "https://images.unsplash.com/photo-1588671939034-b2ed6212d005?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "This little pink plush unicorn is an adorable product for kids who love fantastic animals and plush toys. Made of soft and high-quality materials, this plush toy is designed to provide a pleasant touch and a comfortable experience during play."
+    },
+    {
+      "id": 55,
+      "title": "Dinosaur",
+      "categoryId": 1,
+      "price": "89.99",
+      "image": "https://images.unsplash.com/photo-1617247165492-9a9f246320b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "All children will love the bright colors, soft fur and big eyes of the dinosaur. Everyone will want to hug him non-stop."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+[debug] [2024-01-11T21:24:46.612Z] ----------------------------------------------------------------------
+[debug] [2024-01-11T21:24:46.615Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy -m Deploying the best new feature ever.
+[debug] [2024-01-11T21:24:46.615Z] CLI Version:   13.0.3
+[debug] [2024-01-11T21:24:46.616Z] Platform:      win32
+[debug] [2024-01-11T21:24:46.616Z] Node Version:  v18.18.0
+[debug] [2024-01-11T21:24:46.617Z] Time:          Thu Jan 11 2024 23:24:46 GMT+0200 (Ora standard a Europei de Est)
+[debug] [2024-01-11T21:24:46.617Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-11T21:24:46.704Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"rules"}
+[debug] [2024-01-11T21:24:46.710Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-11T21:24:46.710Z] > authorizing via signed-in user (roxana.urzica@gmail.com)
+[debug] [2024-01-11T21:24:46.710Z] [iam] checking project roxanawebapp for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2024-01-11T21:24:46.713Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions [none]
+[debug] [2024-01-11T21:24:46.714Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions x-goog-quota-user=projects/roxanawebapp
+[debug] [2024-01-11T21:24:46.714Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2024-01-11T21:24:47.715Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions 200
+[debug] [2024-01-11T21:24:47.716Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2024-01-11T21:24:47.718Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2024-01-11T21:24:47.718Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-01-11T21:24:48.551Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2024-01-11T21:24:48.551Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-01-11T21:24:48.553Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp [none]
+[debug] [2024-01-11T21:24:48.877Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp 200
+[debug] [2024-01-11T21:24:48.878Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp {"projectId":"roxanawebapp","projectNumber":"583615180884","displayName":"roxanawebapp","name":"projects/roxanawebapp","resources":{"hostingSite":"roxanawebapp","realtimeDatabaseInstance":"roxanawebapp-default-rtdb","storageBucket":"roxanawebapp.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0c2da855-f061-42f7-9969-41d4992fbd5d"}
+[debug] [2024-01-11T21:24:48.878Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp [none]
+[debug] [2024-01-11T21:24:49.153Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp 200
+[debug] [2024-01-11T21:24:49.153Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp {"projectId":"roxanawebapp","projectNumber":"583615180884","displayName":"roxanawebapp","name":"projects/roxanawebapp","resources":{"hostingSite":"roxanawebapp","realtimeDatabaseInstance":"roxanawebapp-default-rtdb","storageBucket":"roxanawebapp.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0c2da855-f061-42f7-9969-41d4992fbd5d"}
+[debug] [2024-01-11T21:24:49.155Z] Specified "public" directory "public" does not exist; Deploy to Hosting site "roxanawebapp" may fail or be empty.
+[info] 
+[info] === Deploying to 'roxanawebapp'...
+[info] 
+[info] i  deploying database, firestore, functions, hosting 
+[debug] [2024-01-11T21:24:49.307Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.join (node:path:429:7)
+    at Config.path (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:125:45)
+    at getChildEnvironment (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:56:49)
+    at runTargetCommands (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:77:14)
+    at C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:151:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async chain (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:38:9)
+    at async deploy (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-11T21:34:27.213Z] ----------------------------------------------------------------------
+[debug] [2024-01-11T21:34:27.218Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy -m Deploying the best new feature ever.
+[debug] [2024-01-11T21:34:27.220Z] CLI Version:   13.0.3
+[debug] [2024-01-11T21:34:27.221Z] Platform:      win32
+[debug] [2024-01-11T21:34:27.221Z] Node Version:  v18.18.0
+[debug] [2024-01-11T21:34:27.223Z] Time:          Thu Jan 11 2024 23:34:27 GMT+0200 (Ora standard a Europei de Est)
+[debug] [2024-01-11T21:34:27.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-11T21:34:27.341Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"rules"}
+[debug] [2024-01-11T21:34:27.346Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-11T21:34:27.347Z] > authorizing via signed-in user (roxana.urzica@gmail.com)
+[debug] [2024-01-11T21:34:27.347Z] [iam] checking project roxanawebapp for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2024-01-11T21:34:27.349Z] > refreshing access token with scopes: []
+[debug] [2024-01-11T21:34:27.354Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-11T21:34:27.354Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-11T21:34:27.651Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-11T21:34:27.652Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-11T21:34:27.668Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions [none]
+[debug] [2024-01-11T21:34:27.668Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions x-goog-quota-user=projects/roxanawebapp
+[debug] [2024-01-11T21:34:27.669Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2024-01-11T21:34:28.540Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions 200
+[debug] [2024-01-11T21:34:28.540Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roxanawebapp:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2024-01-11T21:34:28.541Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2024-01-11T21:34:28.542Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-01-11T21:34:29.424Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2024-01-11T21:34:29.425Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/roxanawebapp/serviceAccounts/roxanawebapp@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-01-11T21:34:29.429Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp [none]
+[debug] [2024-01-11T21:34:29.805Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp 200
+[debug] [2024-01-11T21:34:29.806Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp {"projectId":"roxanawebapp","projectNumber":"583615180884","displayName":"roxanawebapp","name":"projects/roxanawebapp","resources":{"hostingSite":"roxanawebapp","realtimeDatabaseInstance":"roxanawebapp-default-rtdb","storageBucket":"roxanawebapp.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0c2da855-f061-42f7-9969-41d4992fbd5d"}
+[debug] [2024-01-11T21:34:29.807Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp [none]
+[debug] [2024-01-11T21:34:30.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp 200
+[debug] [2024-01-11T21:34:30.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roxanawebapp {"projectId":"roxanawebapp","projectNumber":"583615180884","displayName":"roxanawebapp","name":"projects/roxanawebapp","resources":{"hostingSite":"roxanawebapp","realtimeDatabaseInstance":"roxanawebapp-default-rtdb","storageBucket":"roxanawebapp.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0c2da855-f061-42f7-9969-41d4992fbd5d"}
+[debug] [2024-01-11T21:34:30.111Z] Specified "public" directory "public" does not exist; Deploy to Hosting site "roxanawebapp" may fail or be empty.
+[info] 
+[info] === Deploying to 'roxanawebapp'...
+[info] 
+[info] i  deploying database, firestore, functions, hosting 
+[debug] [2024-01-11T21:34:30.305Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.join (node:path:429:7)
+    at Config.path (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:125:45)
+    at getChildEnvironment (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:56:49)
+    at runTargetCommands (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:77:14)
+    at C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:151:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async chain (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:38:9)
+    at async deploy (C:\Users\Roxana\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
