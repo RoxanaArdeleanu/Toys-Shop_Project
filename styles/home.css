@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+* ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: beige;
+    color: rgba(105, 105, 115, 1);
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+a :hover {
+    color: rgb(204, 181, 152);
+}
+
+body a {
+    color: rgba(105, 105, 115, 1);
+}
+
+.siteWrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+.siteWrapper .logo {
+    font-size: 300px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 1000;
+    text-shadow: 2px 2px #dcdcdc;
+    text-indent: 10px;
+}
+
+.searchBar {
+    display: flex;
+    border: 1px solid #dcdcdc;
+    font-family: helvetica,Arial,sans-serif;
+    background: none;
+    height: 48px;
+    width: 30%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.searchBar input {
+    border: 1px solid #dcdcdc;
+    width: 90%;
+    padding-left: 20px;
+    color: rgba(105, 105, 115, 1);
+    font-family: helvetica,Arial,sans-serif;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.searchBar button {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.account-wishlist-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+i {
+   font-size: 20px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.wishList-item {
+    margin-left: 30px;
+}
+
+.cart-wrapper {
+    margin-left: 30px;
+}
+
+.mainNavigation {
+    padding: 20px;
+}
+
+.containerMenu {
+    display: flex;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.navList {
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.navList>li {
+    margin-bottom: 10px;
+}
+
+.mainNavigation h1 {
+    font-size: 18px;
+    text-align:inherit
+}
+
+.navList ul li a :hover {
+    color: rgb(194, 207, 207);
+    font-size: 10px;
+}
+
+
+.topMenu {
+    font-weight: 500;
+    padding: 20px;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+}
+
+.mainPicture {
+    margin-top: 10px;
+    margin-left: 20px;
+    min-width: 500px;
+}
+
+.mainPicture img {
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.productListContainer {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.productListItem {
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    flex-grow: 2;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.productListItem img {
+    max-width: 100%;
+}
+
+.h2Categ {
+    font-size: 16px;
+    text-align: center;
+}
+
+.contentFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footerContainer {
+    display: flex;
+}
+
+.footerContainer ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.media {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.media>a {
+    margin-left: 15px;
+}
+
+.home-footer {
+    margin-left: 30px;
+}
+
+.contact-footer {
+    margin-left: 30px;
+}
+
+.account-footer {
+    margin-left: 30px;
+}

@@ -1,0 +1,68 @@
+#mappedToysContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#mappedToysContainer .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content:left;
+    height: 475px;
+    width: 270px;
+    padding: 10px 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 7px;
+    position: relative;
+}
+
+#mappedToysContainer .card img:nth-child(1){
+    height: 342px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+
+#mappedToysContainer .card .card-body {
+    text-align:left;
+}
+
+#mappedToysContainer .card .card-body h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(105, 105, 115, 1);
+}
+
+#mappedToysContainer .card .card-body h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+#mappedToysContainer .card-body input {
+    width: 25%;
+}
+
+#mappedToysContainer .card button {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 405px;
+    position: absolute;
+}
+
+#mappedToysContainer .card button:hover{
+    background-color: rgb(43, 143, 146);
+}

@@ -1,0 +1,627 @@
+#product-detail {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#product-detail .card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#product-detail .card .mb-1{
+    display: flex;
+    margin-left: 40px;
+    height: 550px;
+    margin-bottom: 0px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.g-0{
+    height: 475px;
+}
+
+.col-md-4 img {
+    height: 475px;
+}
+
+#product-detail .col-md-4 {
+    width: 40%;
+    margin-right: 50px;
+}
+
+#product-detail .col-md-8 {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#product-detail .col-md-8 h5 {
+    padding-top: 25px;
+    font-size: 26px;
+    color: rgba(105, 105, 115, 1);
+}
+
+#product-detail .col-md-8 h4 {
+    margin-top: 70px;
+    font-size: 20px;
+    color: cadetblue;
+}
+
+#product-detail .col-md-8 input {
+    margin-top: 30px;
+    width: 50px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#product-detail .col-md-8 button {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#product-detail .col-md-8 button:hover{
+    background-color: rgb(43, 143, 146);
+}
+
+#product-detail .col-md-8 span {
+    line-height: 25px;
+    text-align: left;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .menu-container .row {
+        margin-right: 0;
+        height: 100%;
+    }
+
+    .col-md-3 {
+        width: 28%;
+        flex-direction: column;
+        height: 475px;
+    }
+
+    .nav.flex-column {
+        height: 475px; 
+    }
+ 
+    .nav.flex-column a {
+        height: 57px;
+    }
+
+    .col-md-9 {
+        height: 100%;
+        width: 66%;
+        margin-right: 50px;
+    }
+
+    .g-0 {
+        height: 470px;
+    }
+
+    #product-detail .col-mb-1 {
+        height: 470px;
+    }
+
+    #product-detail .col-md-8 {
+        width: 48%;
+        height: 470px;
+    }
+
+    #product-detail .col-md-4 {
+        margin-right: 30px;
+    }
+
+    .col-md-4 img {
+        height: 470px;
+    }
+
+    .my-4 {
+        margin-left: 30px;
+        margin-right: 40px;
+       
+    }
+
+    .bi-c-circle::before {
+        font-size: 14px;
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+    
+    .nav .col-md-4 {
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .main-container {
+        margin: 20px 0;
+    } 
+    
+    .cart-count {
+        top: 31px;
+        right: 205px;
+    }
+    
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .menu-container .row {
+        margin-right: 0;
+      
+    }
+
+    .col-md-3 {
+        width: 27%;
+        flex-direction: column;
+        height: 465px;
+    }
+
+    .nav.flex-column {
+        height: 465px; 
+    }
+
+    .nav.flex-column a {
+        height: 52px;
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+    }
+
+    .col-md-9 {
+        height: 465px;
+        width: 69%;
+        margin-right: 30px;
+    }
+
+    .g-0 {
+        height: 428px;
+    }
+
+    #product-detail .col-mb-1 {
+        height: 465px;
+    }
+
+    #product-detail .col-md-8 {
+        width: 48%;
+        height: 465px;
+    }
+
+    #product-detail .col-md-4 {
+        margin-right: 30px;
+    }
+
+    .col-md-4 img {
+        height: 428px;
+    }
+
+    #product-detail .col-md-8 h5 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    #product-detail .col-md-8 h4 {
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    #product-detail .col-md-8 input {
+        margin-top: 20px;
+        width: 40px;
+        height: 45px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    #product-detail .col-md-8 button {
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 8px;
+    }
+
+    #product-detail .col-md-8 p {
+        font-size: 13px;
+    }
+
+    .my-4 {
+        margin-left: 30px;
+        margin-right: 20px;
+    
+    }
+
+    .bi-c-circle::before {
+        font-size: 14px;
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+
+    .nav .col-md-4 {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .main-container {
+        margin: 20px 0;
+    } 
+
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 260px;
+        margin-left: 35px;
+    }
+
+    .form-control {
+        width: 260px;
+        margin-right: 5px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #searchButton {
+        font-size: 12px;
+    }
+    
+    .cart-count {
+        top: 120px;
+        right: 243px;
+    }
+    
+    .mb-md-0 {
+        padding-left: 0;
+        margin-left: 100px;
+        margin-right: 0;
+    }
+
+    .text-end {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #google-login-btn {
+        margin-left: 10px;
+        margin-right: 0;
+        font-size: 12px;
+        padding: 6px 17px;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        width: 375px;
+        top: 650px;
+        flex-direction: column;
+        height: 465px;
+    }
+
+    .nav.flex-column {
+        height: 375px; 
+        width: 345px;  
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+ 
+    .nav.flex-column a {
+        padding: 6px 15px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .col-md-9 {
+        position: absolute;
+        height: 435px;
+        width: 375px;
+        margin-right: 30px;
+    }
+
+    .g-0 {
+        height: 400px;
+    }
+
+    #product-detail .col-mb-1 {
+        height: 435px;
+    }
+
+    #product-detail .col-md-8 {
+        width: 375px;
+        height: 435px;
+    }
+
+    #product-detail .col-md-4 {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+    .col-md-4 img {
+        height: 400px;
+    }
+
+    #product-detail .col-md-8 .card-body {
+        width: 200px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #product-detail .col-md-8 h5 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    #product-detail .col-md-8 h4 {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    #product-detail .col-md-8 input {
+        margin-top: 10px;
+        width: 35px;
+        height: 45px;
+        padding-left: 10px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    #product-detail .col-md-8 button {
+        font-size: 14px;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .bi-basket2-fill {
+        font-size: 20px;
+    }
+
+    #product-detail .col-md-8 p {
+        font-size: 12px;
+    }
+
+    .my-4 {
+        position: absolute;
+        margin-left: 15px;
+        margin-right: 15px;
+        top: 1000px;
+    
+    }
+
+    .bi-c-circle::before {
+        font-size: 12px;
+    }
+
+    .col-md-4 {
+        width: fit-content;
+        margin-left: 65px;
+    }
+    
+    .justify-content-end {
+        justify-content: center!important;
+    }
+
+    footer .nav {
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-container {
+        margin: 20px 0;
+    } 
+
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 260px;
+        margin-left: 35px;
+    }
+
+    .form-control {
+        width: 260px;
+        margin-right: 5px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #searchButton {
+        font-size: 12px;
+    }
+
+    .cart-count {
+        top: 115px;
+        right: 210px;
+    }
+
+    .mb-md-0 {
+        padding-left: 0;
+        margin-left: 85px;
+        margin-right: 0;
+    }
+
+    .text-end {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #google-login-btn {
+        margin-left: 10px;
+        margin-right: 0;
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        width: 325px;
+        top: 650px;
+        flex-direction: column;
+        height: 465px;
+    }
+
+    .nav.flex-column {
+        height: 375px; 
+        width: 325px;  
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .nav.flex-column a {
+        padding: 6px 15px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .col-md-9 {
+        position: absolute;
+        height: 335px;
+        width: 320px;
+        margin-right: 30px;
+    }
+
+    .g-0 {
+        height: 335px;
+    }
+
+    #product-detail .col-mb-1 {
+        height: 335px;
+    }
+
+    #product-detail .col-md-8 {
+        width: 325px;
+        height: 335px;
+    }
+
+    #product-detail .col-md-4 {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+    .col-md-4 img {
+        height: 335px;
+    }
+
+    #product-detail .col-md-8 .card-body {
+        width: 200px;
+        position: absolute;
+        top: 0px;
+        right: -35px;
+        margin-right: 25px;
+    }
+
+    #product-detail .col-md-8 h5 {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    #product-detail .col-md-8 h4 {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    #product-detail .col-md-8 input {
+        margin-top: 10px;
+        width: 30px;
+        height: 25px;
+        padding-left: 10px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    #product-detail .col-md-8 button {
+        font-size: 12px;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 2px;
+    }
+
+    .bi-basket2-fill {
+        font-size: 18px;
+    }
+
+    #product-detail .col-md-8 p {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .my-4 {
+        position: absolute;
+        margin-left: 15px;
+        margin-right: 15px;
+        top: 1000px;
+
+    }
+
+    .bi-c-circle::before {
+        font-size: 12px;
+    }
+
+    .col-md-4 {
+        width: fit-content;
+        margin-left: 65px;
+    }
+
+    .justify-content-end {
+        justify-content: center!important;
+    }
+
+    footer .nav {
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+
+}

@@ -1,0 +1,272 @@
+.checkout-title, .checkout-cart {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 20px;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.checkout-form {
+    padding: 10px 8px;
+    margin: 0;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.checkout-form .form-row .first input {
+    font-size: 13px;
+    color: rgba(105, 105, 115, 1);
+}
+
+.checkout-form .form-row .first input::after {
+    font-size: 13px;
+    color: rgba(105, 105, 115, 1);
+    background-color: white;
+}
+
+.form-row {
+    padding: 45px 25px 25px 25px;
+}
+
+.form-group {
+    height: 50px;
+}
+
+.first {
+    display: flex;
+}
+
+#firstName, 
+#lastName, 
+#street, 
+#number {
+    margin-left: 20px;
+    height: 30px;
+}
+
+#street {
+    width: 450px;
+}
+
+#number {
+    width: 225px;
+}
+
+.block {
+    margin-top: 5px;
+}
+
+#block {
+    margin-left: 79px;
+    width: 70px;
+    height: 30px;
+}
+
+.floor {
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+#floor {
+    margin-left: 20px;
+    height: 30px;
+    width: 62px;
+}
+
+.apt {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#apartment {
+    margin-left: 0px;
+    width: 62px;
+    height: 30px;
+}
+
+#zipCode {
+    margin-left: 19px;
+    height: 30px;
+    width: 225px;
+}
+
+#city, #county, #country {
+    margin-left: 19px;
+    height: 30px;
+}
+
+#standardShipping, 
+#cashOnDelivery {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(105, 105, 115, 1);
+}
+
+.form-check-input:checked {
+    background-color: rgba(105, 105, 115, 1); 
+    border-color: rgba(105, 105, 115, 1);
+}
+
+.buttonPlaceOrder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.buttonPlaceOrder button {
+    border-radius: 20px;
+}
+
+.buttonPlaceOrder [type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: rgb(43, 143, 146);
+    color: blanchedalmond;
+}
+
+.table {
+    padding: 10px 8px;
+    margin: 0;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+#cartTableBody tr td {
+    background-color: transparent;
+}
+
+#cartTableBody button {
+    width: 10px;
+    padding: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#cartTableBody .btn-remove i {
+    position: absolute;
+    transform: translate(-20%, -30%);
+    font-size: 10px;
+    color: brown;
+}
+
+#cartTableBody img {
+    width: 30px;
+    align-items: center;
+}
+
+.table td:nth-child(1) {
+    width: 37px;
+    text-align: center;
+}
+
+.table td:nth-child(2) {
+    width: 50px;
+    text-align: center;
+}
+
+.table td:nth-child(3) {
+    width: 95px;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 25px;
+    color: rgba(105, 105, 115, 1);
+}
+
+#cartTableBody tr td:nth-child(4){
+    width: 80px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgba(105, 105, 115, 1);
+}
+
+#cartTableBody tr td:nth-child(5) {
+    width: 70px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgba(105, 105, 115, 1);
+}
+
+#cartTableBody tr td:nth-child(6) {
+    text-align: center;
+    padding-top: 25px;
+    color: rgba(105, 105, 115, 1);
+    width: 60px;
+}
+
+.table td:nth-child(5) input {
+    width: 40px;
+    padding: 0px 0px 0px 10px;
+}
+
+
+
+.table tbody tr td {
+    padding-top: 15px;
+}
+
+.table tbody td {
+    font-size: 11px;
+}
+
+.table tbody td a i {
+    font-size: 50px;
+}
+
+#table-footer {
+    background: transparent;
+    border: transparent;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 382px;
+    padding-top: 15px;
+}
+
+#table-footer tr {
+    background: transparent;
+}
+
+#table-footer td:nth-child(1) {
+    padding: 0;
+}
+
+#table-footer td:nth-child(2) {
+    width: 70px;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+#table-footer td:nth-child(3) {
+    width: 70px;
+    text-align: center;
+    padding: 0 0 15px 5px;
+}
+
+#table-footer tr td {
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
+#table-footer tr td:nth-child(2),
+#table-footer tr td:nth-child(3) {
+    color: rgba(105, 105, 115, 1);
+    
+}
+
+.success-message {
+    margin-top: 120px;
+}
+
+.red-highlight {
+    border: 1px solid rgb(255, 0, 0);
+}

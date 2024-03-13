@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online children's toy store | Shopping cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="../../styles/shopping-cart.css" />
+    <script
+      src="../../javascript/shopping-cart.js"
+      defer
+      type="module"
+    ></script>
+    <script src="../../src/index.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="container-xl">
+      <div
+        class="main-container d-flex flex-wrap align-items-center justify-content-center justify-content"
+      >
+        <a
+          href="/index.html"
+          class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none"
+        >
+          <h3>Toys-Shop</h3>
+        </a>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input
+            type="search"
+            class="form-control form-control-dark"
+            placeholder="Search for title..."
+            aria-label="Search"
+          />
+          <button type="button" class="btn" id="searchButton">Search</button>
+
+          <div
+            id="insertSearchedProducts"
+            class="displayed-toys-container"
+          ></div>
+        </form>
+
+        <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a href="/pages/account/shopping-cart.html" class="nav-link px-2"
+              ><i class="bi bi-basket2-fill"></i>Shopping cart
+              <div class="cart-count">0</div>
+            </a>
+          </li>
+        </ul>
+        <div class="text-end">
+          <a href="/pages/account/account.html" class="text-decoration-none">
+            <button type="button" class="btn me-2" id="google-login-btn">
+              Login
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <div class="row">
+          <div class="col col-md-12">
+            <div class="containerMenu">
+              <section id="shopping-cart">
+                <table width="100%">
+                  <thead>
+                    <tr>
+                      <td>Remove</td>
+                      <td>Image</td>
+                      <td>Product</td>
+                      <td>Price</td>
+                      <td>Quantity</td>
+                      <td>Subtotal</td>
+                    </tr>
+                  </thead>
+                  <tbody id="cartTableBody"></tbody>
+                  <tfoot id="table-footer">
+                    <tr>
+                      <td colspan="5"></td>
+                      <td><strong>Total: </strong></td>
+                      <td><strong> Lei</strong></td>
+                    </tr>
+                  </tfoot>
+                </table>
+                <div class="shopping-cart-btns">
+                  <a href="/index.html"
+                    ><button id="continue-shopping-btn">
+                      Continue shoppping
+                    </button></a
+                  >
+                  <button id="send-order-btn">Send the order</button>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-body-secondary"
+            >Copyright <i class="bi bi-c-circle"></i> Toys-Shop All rights
+            reserved</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>

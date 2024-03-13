@@ -1,0 +1,1362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: beige;
+    color: rgba(105, 105, 115, 1);
+    margin-top: 20px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+h1, h2 {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+
+body a {
+    color: rgba(105, 105, 115, 1);
+}
+
+p {
+    font-size: 16px;
+    color: rgba(105, 105, 115, 1);
+    margin: 15px 0 20px 0;
+}
+
+.main-container {
+    margin: 80px 0 50px 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h3 {
+    font-weight: 900;
+    color: cadetblue;
+    font-size: 2.1rem;
+    text-shadow: 0px 1px 0px rgb(70, 98, 99),
+                 0px 2px 0px rgb(70, 98, 99),
+                 0px 3px 0px rgb(70, 98, 99),
+                 0px 4px 0px rgb(70, 98, 99),
+                 0px 5px 0px rgb(70, 98, 99),
+                 0px 6px 0px rgb(70, 98, 99),
+                 0px 7px 0px rgb(70, 98, 99),
+                 0px 8px 0px rgb(70, 98, 99),
+                 0px 9px 0px rgb(70, 98, 99),
+                 0px 10px 0px rgb(70, 98, 99),
+                 0px 10px 20px rgb(42, 70, 71);
+    animation: glow 0.5s ease-in-out infinite;
+    margin-bottom: 15px;            
+}
+
+.mb-lg-0 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.form-control {
+    padding: 0 10px 0 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    color: rgba(105, 105, 115, 1);
+}
+
+.form-control input {
+    margin-right: 10px;
+    color: rgba(105, 105, 115, 1);
+}
+
+.form-control .btn-close {
+    color: rgba(105, 105, 115, 1);
+}
+
+.form-control .btn-close:hover {
+    color: rgba(105, 105, 115, 1);
+    background-color: rgba(105, 105, 115, 1);
+    opacity: 1;
+}
+
+#insertSearchedProducts {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 45px;
+    padding-right: 200px; 
+    z-index: 1; /* it show above the element with z-index lower*/
+}
+
+#insertSearchedProducts ul {
+    background-color: white;
+    border: 1px solid #dcdcdd;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#insertSearchedProducts ul li {
+    padding: 10px 142px 10px 0px;
+    margin-left: -25px;
+    color: rgba(105, 105, 115, 1);
+}
+
+#insertSearchedProducts ul li:hover {
+    cursor: pointer;
+}
+
+.mb-md-0 {
+    margin-left: 150px;
+    padding-left: 70px; 
+}
+
+.me-lg-auto {
+    margin-right: 20px;
+}
+
+.cart-count {
+    position: absolute;
+    background: linear-gradient(to right,#929394,#47464b);
+    top: 80px;
+    color: white;
+    right: 358px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    line-height:9px;
+    border-radius: 50%;
+}
+
+.me-2 {
+    margin-right: 0!important;
+}
+
+.cart-count:hover {
+    color: rgb(204, 181, 152);
+}
+
+.nav-link {
+    color: rgba(105, 105, 115, 1);
+}
+
+.nav-link:hover {
+    color: rgb(204, 181, 152);
+}
+
+
+.nav.flex-column h4 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.text-end {
+    padding-left: 25px;
+    margin-left: 20px;
+}
+
+.menu-container {
+    margin-bottom: 50px;
+}
+
+.menu-container.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.nav.flex-column a {
+    padding: 10px 8px;
+    margin: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+#carouselExampleRide {
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+#carouselExampleRide img {
+    border-radius: 10px;
+    height: 475px;
+}
+
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: rgb(43, 143, 146);
+    color: blanchedalmond;
+}
+
+.bi {
+    font-size: 25px;
+}
+
+.bi::before {
+    font-size: 25px;
+}
+
+.bi:hover {
+    color: rgb(204, 181, 152);
+}
+
+.bi-c-circle {
+    font-size: 12px;
+}
+
+.bi-c-circle::before {
+    font-size: 12px;
+}
+
+
+.col-md-12 {
+    padding-bottom: 50px;
+}
+
+.col-md-12 h2 {
+    margin-top: 25px;
+    margin-bottom: 55px;
+    font-weight: 700;
+}
+
+#insertFeaturedProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#insertFeaturedProducts .card {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content:left;
+    max-height: 475px;
+    width: 23%;
+    padding: 10px 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 7px;
+    position: relative;
+}
+
+#insertFeaturedProducts .card img:nth-child(1){
+    height: 342px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#insertFeaturedProducts .card:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#insertFeaturedProducts .card .card-body {
+    text-align:left;
+}
+
+#insertFeaturedProducts .card .card-body h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(105, 105, 115, 1);
+}
+
+#insertFeaturedProducts .card .card-body h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+#insertFeaturedProducts .card-body input {
+    width: 25%;
+}
+
+#insertFeaturedProducts .card button {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 118px;
+    margin-top: 407px;
+    position: absolute;
+}
+
+#insertFeaturedProducts .card button:hover{
+    background-color: rgb(43, 143, 146);
+}
+
+.mb-3 span {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.media-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.media-icons>a {
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mb-lg-0 {
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .form-control{
+        margin-left: 10px;
+        width: 80%;
+        padding: 0 10px 0 10px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+    
+    #insertSearchedProducts {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 40px;
+        padding-right: 100px; 
+        z-index: 1; 
+    }
+    
+    #insertSearchedProducts ul li {
+        padding: 10px 165px 10px 0px;
+        margin-left: -20px;
+    }
+
+    .mb-md-0 {
+        padding-left: 60px;
+        margin-left: 0px;
+    }
+
+    .cart-count{
+        top: 84px;
+        right: 277px;
+        padding: 4px;
+        height: 17px;
+        width: 17px;
+        line-height:8px;
+    }
+
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .menu-container .row {
+        margin-right: 50px;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 29%;
+        flex-direction: column;
+        height: 475px;
+    }
+
+    .nav.flex-column {
+        height: 475px; 
+    }
+ 
+    .nav.flex-column a {
+        padding: 15px 8px;
+        margin: 0;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        display: block;
+        height: 57px;
+    }
+
+    .col-md-9 {
+        flex: 0 0 auto;
+        width: 660px;
+        height: 475px;
+        border-radius: 10px;
+    }
+
+    #carouselExampleRide {
+        width: 660px;
+        height: 475px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    #carouselExampleRide img {
+        width: 660px;
+        height: 475px;
+        border-radius: 10px;
+    }
+
+    .carousel-inner {
+        width: 660px;
+        border-radius: 10px;
+    }
+
+    #insertFeaturedProducts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #insertFeaturedProducts .card {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        justify-content:left;
+        max-height: 500px;
+        width: 24%;
+        padding: 10px 15px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-right: 7px;
+        position: relative;
+    }
+    
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 342px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    }
+    
+    #insertFeaturedProducts .card .card-body h5 {
+        font-size: 13px;
+    }
+    
+    #insertFeaturedProducts .card .card-body h4 {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+    
+    #insertFeaturedProducts .card-body input {
+        width: 25%;
+    }
+
+    #insertFeaturedProducts .card:nth-child(4),
+    #insertFeaturedProducts .card:nth-child(8) {
+        margin-right: 0px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+8) .card-body {
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+4) .cart-quantity-input {
+        padding-bottom: 5px;
+    }
+    .col-md-12 h2
+    
+    #insertFeaturedProducts .card button {
+        border: 1px solid #dcdcdc;
+        background-color: cadetblue;
+        color: blanchedalmond;
+        cursor: pointer;
+        border-color: cadetblue;
+        font-size: 11px;
+        border-radius: 10px;
+        margin-left: 92px;
+        margin-top: 412px;
+        position: absolute;
+        max-height: 35px;
+        padding-bottom: 6px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .bi {
+        font-size: 19px;
+    }
+
+    .bi::before {
+        font-size: 19px;
+    }
+    
+    #insertFeaturedProducts .card button:hover{
+        background-color: rgb(43, 143, 146);
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+4) .addToCartBtn {
+        margin-left: 92px;
+        margin-top: 415px;
+        position: absolute;
+        max-height: 35px;
+    }
+
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn {
+        margin-left: 92px;
+        margin-top: 410px;
+        position: absolute;
+        max-height: 35px;
+    }
+
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 92px;
+        margin-top: 410px;
+        position: absolute;
+        max-height: 35px;
+    }
+
+    .my-4 {
+        margin-left: 30px;
+        margin-right: 30px;
+       
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+    
+    .nav .col-md-4 {
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .mb-lg-0 {
+        margin-left: 30px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        margin-top: 10px;       
+    }
+    
+    .col-12 {
+        width: 40%;
+    }
+
+    .mb-lg-0.mb-3 {
+        margin-bottom: 0px !important;
+        width: 280px;
+        margin-left: 38px;
+    }
+
+    .form-control {
+        margin-left: 10px;
+        width: 50%;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    #searchButton {
+        font-size: 14px;
+    }
+    
+    #insertSearchedProducts {
+        margin-left: 0px;
+        margin-top: 35px;
+        z-index: 1; 
+    }
+    
+    #insertSearchedProducts ul {
+        margin-left: 10px;
+    }
+
+    #insertSearchedProducts ul li {
+        font-size: 12px;
+        padding: 10px 100px 10px 0px;
+    }
+    
+    .mb-md-0 {
+        padding-left: 10px;
+        margin-left: 0px;
+        width: 150px;
+    }
+
+    .px-2 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .me-2 {
+        margin-right: 0px !important;
+        margin-left: 10px;
+    }
+
+    .cart-count {
+        top: 92px;
+        right: 205px;
+        padding: 4px;
+        height: 16px;
+        width: 16px;
+        line-height:6px;
+    }
+
+    .text-end {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #google-login-btn {
+        font-size: 14px;
+    }
+
+    .col-md-3 {
+        width: 210px;
+    }
+
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .nav.flex-column {
+        height: 475px;   
+    }
+ 
+    .nav.flex-column a {
+        padding: 15px 8px;
+        height: 54px;
+    }
+
+    .col-md-9 {
+        width: 490px;
+        height: 473px;
+    }
+
+    #carouselExampleRide {
+        width: 490px;
+        height: 473px;
+    }
+
+    #carouselExampleRide img {
+        width: 490px;
+        height: 473px;
+        border-radius: 10px;
+    }
+
+    .carousel-inner {
+        width: 490px;
+        height: 473px;
+        border-radius: 10px;
+    }
+
+    .carousel-item {
+        margin-right: 0;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 330px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    }
+    
+    #insertFeaturedProducts .card .card-body h5 {
+        font-size: 12px;
+    }
+    
+    #insertFeaturedProducts .card .card-body h4 {
+        font-size: 12px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+8) .card-body {
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    #insertFeaturedProducts .card button {
+        max-height: 35px;
+        padding-bottom: 2px;
+    }
+
+    .bi {
+        font-size: 17px;
+    }
+
+    .bi::before {
+        font-size: 17px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+4) .addToCartBtn {
+        margin-left: 80px;
+        margin-top: 395px;
+        position: absolute;
+        max-height: 35px;
+    }
+
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn {
+        margin-left: 80px;
+        margin-top: 395px;
+    }
+
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 80px;
+        margin-top: 395px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(3),
+    #insertFeaturedProducts .card:nth-child(6) {
+        margin-right: 0px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        position: absolute;
+        margin-left: 240px;
+        margin-top: 952px;
+        width: 209px;
+    }
+
+    .my-4 {
+        margin-left: 20px;
+        margin-right: 30px;
+       
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+    
+    .nav .col-md-4 {
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .main-container {
+        margin: 20px 20px;
+    }  
+    
+    body {
+        font-size: 14px;
+    }
+
+    .mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 290px;
+        margin-left: 60px;
+    }
+
+    .form-control {
+        width: 290px;
+        margin-right: 5px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #searchButton {
+        font-size: 14px;
+    }
+    
+    #insertSearchedProducts {
+        margin-left: 20px;
+    }
+    
+    #insertSearchedProducts ul {
+        margin-left: 11px;
+    }
+
+    #insertSearchedProducts ul li {
+        font-size: 12px;
+        padding: 10px 130px 10px 0px;
+    }
+    
+    .mb-md-0 {
+        padding-left: 0px;
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+
+    .cart-count {
+        top: 126px;
+        right: 248px;
+    }
+
+    .text-end {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #google-login-btn {
+        margin-left: 30px;
+        margin-right: 0;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-container {
+        margin: 30px 10px;
+        width: 95%;
+        height: 100%;
+    }
+
+    .nav.flex-column {
+        height: 375px;   
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+ 
+    .nav.flex-column a {
+        padding: 6px 15px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .col-md-9 {
+        width: 380px;
+        height: 403px;
+    }
+
+    #carouselExampleRide {
+        width: 380px;
+        height: 403px;
+    }
+
+    #carouselExampleRide img {
+        width: 380px;
+        height: 403px;
+        border-radius: 10px;
+    }
+
+    .carousel-inner {
+        width: 380px;
+        height: 403px;
+    }
+
+    .carousel-item {
+        margin-right: 0;
+    }
+
+    .col-md-12 h2 {
+        font-size: 35px;
+        margin-top: 35px;
+        margin-bottom: 55px;
+        font-weight: 700;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 250px;
+    }
+    
+    #insertFeaturedProducts .card .card-body h5 {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    
+    #insertFeaturedProducts .card .card-body h4 {
+        font-size: 11px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+8) .card-body {
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    .bi-basket2-fill {
+        font-size: 24px;
+    }
+
+    .bi-basket2-fill::before {
+        font-size: 24px;
+    }
+
+    .bi-c-circle {
+        font-size: 12px;
+    }
+
+    .bi-c-circle::before {
+        font-size: 12px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(2),
+    #insertFeaturedProducts .card:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    #insertFeaturedProducts .addToCartBtn .bi-ca {
+        font-size: 24px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+8) button.addToCartBtn {
+        overflow: hidden;  /* to hide any content that goes beyond the button's boundaries */
+        font-size: 0;
+        max-height: 45px;
+        padding-bottom: 2px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn, 
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn {
+        margin-left: 110px;
+        margin-top: 300px;
+        max-height: 40px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn {
+        margin-left: 110px;
+        margin-top: 300px;
+    }
+   
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn,
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 110px;
+        margin-top: 305px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 379px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        position: absolute;
+        margin-left: 195px;
+        margin-top: 1160px;
+        width: 181px;
+        height: 379px;
+    }
+
+    #insertFeaturedProducts .card:last-child h4 {
+        padding-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .my-4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    .col-md-4 {
+        width: fit-content;
+        margin-left: 65px;
+    }
+    
+    .justify-content-end {
+        justify-content: center!important;
+    }
+
+    footer .nav {
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .menu-container {
+        margin: 30px 30px 30px 10px;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 260px;
+        margin-left: 30px;
+    }
+
+    .form-control {
+        width: 260px;
+        margin-right: 5px;
+        margin-left: 30px;
+    }
+
+    #searchButton {
+        font-size: 13px;
+        padding: 3px 6px;
+    }
+    
+    #insertSearchedProducts {
+        margin-left: 21px;
+        margin-top: 27px;
+        z-index: 1; 
+    }
+    
+    #insertSearchedProducts ul {
+        margin-left: 10px;
+    }
+
+    #insertSearchedProducts ul li {
+        padding: 10px 130px 10px 0px;
+    }
+    
+    .mb-md-0 {
+        margin-left: 72px;
+    }
+
+    .cart-count {
+        top: 118px;
+        right: 214px;
+    }
+
+    #google-login-btn {
+        margin-left: 32px;
+        margin-right: 0;
+        font-size: 13px;
+        padding: 3px 10px;
+        
+    }
+
+    .nav.flex-column {
+        height: 285px;   
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+        padding: 7px 7px;
+    }
+
+    .nav.flex-column a {
+        padding: 4px 8px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .col-md-9 {
+        width: 333px;
+        height: 300px;
+    }
+
+    #carouselExampleRide {
+        width: 333px;
+        height: 300px;
+    }
+
+    #carouselExampleRide img {
+        width: 333px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .carousel-inner {
+        width: 333px;
+        height: 300px;
+    }
+
+    .col-md-12 h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+    
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 230px;
+    }
+
+    .bi-basket2-fill {
+        font-size: 22px;
+    }
+
+    .bi-basket2-fill::before {
+        font-size: 22px;
+    }
+
+    .bi-c-circle {
+        font-size: 12px;
+    }
+
+    #insertFeaturedProducts .addToCartBtn .bi-ca {
+        font-size: 22px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(2),
+    #insertFeaturedProducts .card:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn,
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn {
+        margin-left: 83px;
+        margin-top: 280px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn {
+        margin-left: 83px;
+        margin-top: 290px;
+    }
+
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn {
+        margin-left: 83px;
+        margin-top: 283px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 346px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        margin-left: 175px;
+        margin-top: 1107px;
+        width: 153px;
+        height: 346px;
+    }
+
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 83px;
+        margin-top: 283px;
+    }
+
+    #insertFeaturedProducts .card:last-child h4 {
+        padding-top: 2px;
+        margin-bottom: 1px;
+    }
+
+    .my-4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    .col-md-4 {
+        width: fit-content;
+        margin-left: 35px;
+    }
+
+    footer .nav {
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .main-container {
+        margin: 20px 20px;
+    }  
+    
+    body {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .mb-2 {
+        margin-bottom: 0!important;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 270px;
+        margin-left: 40px;
+    }
+
+    .form-control {
+        width: 270px;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #searchButton {
+        font-size: 12px;
+    }
+
+    .cart-count {
+        top: 104px;
+        right: 182px;
+    }
+
+    .text-end {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .menu-container {
+        margin: 10px 10px 30px 20px;
+    }
+
+    .col-md-9 {
+        width: 278px;
+        height: 220px;
+    }
+
+    #carouselExampleRide {
+        width: 278px;
+        height: 220px;
+    }
+
+    #carouselExampleRide img {
+        width: 278px;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .carousel-inner {
+        width: 278px;
+        height: 220px;
+    }
+
+    .col-md-12 h2 {
+        font-size: 22px;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 48%;
+      
+    }
+    
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 150px;
+    }
+
+    .bi-basket2-fill {
+        font-size: 18px;
+    }
+
+    .bi-basket2-fill::before {
+        font-size: 18px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(2),
+    #insertFeaturedProducts .card:nth-child(4),
+    #insertFeaturedProducts .card:nth-child(6) {
+        margin-right: 0px;
+    }
+
+    #insertFeaturedProducts .addToCartBtn .bi-ca {
+        font-size: 18px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn,
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn {
+        margin-left: 63px;
+        margin-top: 205px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn {
+        margin-left: 65px;
+        margin-top: 217px;
+    }
+
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn {
+        margin-left: 65px;
+        margin-top: 213px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 263px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        margin-left: 140px;
+        margin-top: 863px;
+        width: 130px;
+        height: 263px;
+    }
+
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 65px;
+        margin-top: 209px;
+    }
+
+    #insertFeaturedProducts .card:last-child h4 {
+        padding-top: 2px;
+        margin-bottom: 1px;
+    }
+
+    .my-4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 11px;
+    }
+
+    .col-md-4 {
+        width: fit-content;
+        margin-left: 15px;
+    }
+
+    footer .nav {
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    
+}

@@ -1,0 +1,130 @@
+#shopping-cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cartTableBody button {
+    width: 40px;
+    padding: 30px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+#cartTableBody .btn-remove i {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: brown;
+}
+
+#cartTableBody img {
+    width: 70px;
+    align-items: center;
+}
+
+#shopping-cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#shopping-cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#shopping-cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#shopping-cart table td:nth-child(4),
+#shopping-cart table td:nth-child(5),
+#shopping-cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#shopping-cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#shopping-cart table thead {
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}
+
+#shopping-cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+    text-align: center;
+}
+
+#shopping-cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#shopping-cart table tbody td {
+     font-size: 13px;
+}
+
+#shopping-cart table tbody td a i {
+    font-size: 50px;
+}
+
+#shopping-cart table tfoot {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 1010px;
+    padding-top: 15px;
+}
+
+.shopping-cart-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.shopping-cart-btns button {
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.shopping-cart-btns button:hover {
+    background-color: rgb(43, 143, 146);
+}
+
+#continue-shopping-btn {
+    margin-right: 40px;
+}
+
+#send-order-btn {
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cart-count{
+        top: 84px;
+        right: 274px;
+    }
+}

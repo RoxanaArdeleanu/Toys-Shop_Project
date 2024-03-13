@@ -1,0 +1,1014 @@
+#plushToysContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#plushToysContainer .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+
+#plushToysContainer .card img:nth-child(1){
+    height: 342px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#plushToysContainer .card {
+    width: 270px;
+    padding: 10px 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 7px;
+    position: relative;
+}
+
+#plushToysContainer .card:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#plushToysContainer .card .card-body {
+    text-align:left;
+}
+
+#plushToysContainer .card .card-body h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(105, 105, 115, 1);
+}
+
+#plushToysContainer .card .card-body h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: cadetblue;
+
+}
+
+#plushToysContainer .card-body input {
+    width: 25%;
+}
+
+#plushToysContainer .card button {
+    border: 1px solid #dcdcdc;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    cursor: pointer;
+    border-color: cadetblue;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 407px;
+    position: absolute;
+}
+
+#plushToysContainer .card button:hover{
+background-color: rgb(43, 143, 146);
+}
+
+#plushToysContainer .card:nth-child(4) {
+    position: absolute;
+    margin-left: -555px;
+    margin-top: 505px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mb-lg-0 {
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    .mb-md-0 {
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .cart-count{
+        top: 84px;
+        right: 294px;
+    }
+
+    .text-end {
+        padding-left: 15px;
+        margin-left: 10px;
+    }
+
+    .menu-container {
+        margin: 30px 30px;
+        width: 100%;
+    }
+
+    .menu-container .row {
+        margin-right: 50px;
+        height: 100%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 29%;
+        flex-direction: column;
+        height: 470px;
+    }
+
+    .nav.flex-column {
+        height: 470px; 
+    }
+ 
+    .nav.flex-column a {
+        height: 56px;
+    }
+
+    .col-md-9 {
+        height: 100%;
+    }
+
+    #plushToysContainer .card {
+        width: 198px;
+        margin-left: 7px;
+       
+    }
+
+    #plushToysContainer .card .card-body {
+        padding: 10px 1px;
+    }
+
+    #plushToysContainer .card img:nth-child(1) {
+        height: 313px;
+    }
+
+    #plushToysContainer .card .card-body h4 {
+        padding-top: 0;
+    }
+
+    #plushToysContainer .card:nth-child(4) {
+        margin-left: -410px;
+        margin-top: 485px;
+        height: 456px;
+    }
+
+    #plushToysContainer .card:nth-child(1) .cart-quantity-input,
+    #plushToysContainer .card:nth-child(3) .cart-quantity-input {
+        margin-top: 12px;
+    }
+
+    #plushToysContainer .card:nth-child(2) .cart-quantity-input {
+        margin-top: 8px;
+    }
+
+    #plushToysContainer .card:nth-child(4) .cart-quantity-input {
+        margin-top: 13px;
+    }
+
+    #plushToysContainer .card:nth-child(5) .cart-quantity-input {
+        margin-top: 5px;
+    }
+
+    #plushToysContainer .card:nth-child(4) .addToCartBtn {
+        margin-left: 60px;
+        margin-top: 395px;
+    }
+    
+    #plushToysContainer .card:nth-child(1) .addToCartBtn {
+        margin-left: 60px;
+        margin-top: 395px;
+    }
+
+    #plushToysContainer .card:nth-child(2) .addToCartBtn,
+    #plushToysContainer .card:nth-child(3) .addToCartBtn,
+    #plushToysContainer .card:nth-child(5) .addToCartBtn {
+        margin-left: 60px;
+        margin-top: 395px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(2) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(3) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(6) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(7) .cart-quantity-input {
+        margin-left: 2px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+4) .addToCartBtn {
+        margin-top: 420px;
+    }
+
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn, 
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn, 
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn {
+        margin-top: 420px;
+    }
+
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-top: 420px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(-n+8) .card-body {
+        padding: 11px 1px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1),
+    #insertFeaturedProducts .card:nth-child(2),
+    #insertFeaturedProducts .card:nth-child(3),
+    #insertFeaturedProducts .card:nth-child(4),
+    #insertFeaturedProducts .card:nth-child(5),
+    #insertFeaturedProducts .card:nth-child(6),
+    #insertFeaturedProducts .card:nth-child(7),
+    #insertFeaturedProducts .card:nth-child(8) {
+        height: 490px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .cart-quantity-input{
+        margin-top: 12px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(2) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(3) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(4) .cart-quantity-input {
+        margin-top: 12px;
+        margin-left: 1px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(5) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(6) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(7) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(8) .cart-quantity-input {
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+ 
+    .my-4 {
+        margin-left: 30px;
+        margin-right: 30px;
+       
+    }
+
+    .bi-c-circle::before {
+        font-size: 14px;
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+    
+    .nav .col-md-4 {
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .mb-lg-0 {
+        margin-left: 0;
+        padding-right: 35px;
+    }
+    
+    .mb-lg-0.mb-3 {
+        width: 270px;
+        padding-right: 0;
+        margin-left: 0;
+    } 
+    
+    #searchButton {
+        font-size: 12px;
+    }
+
+    .mb-md-0 {
+        padding-left: 0;
+        margin-left: 0;
+        width: 120px;
+        font-size: 12px;
+    }
+    
+    .cart-count{
+        top: 92px;
+        right: 221px;
+    }
+    
+    .text-end {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #google-login-btn {
+        font-size: 12px;
+    }
+
+    .menu-container {
+        height: 100%;
+    }
+    
+    .menu-container .row {
+        margin-right: 50px;
+        height: 100%;
+    }
+    
+    .col-md-3 {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .nav.flex-column {
+        height: 100%; 
+    }
+     
+    .nav.flex-column a {
+        height: 52px;
+        font-size: 14px;
+    }
+
+    .nav.flex-column h4 {
+        font-size: 15px;
+    }
+    
+    .col-md-9 {
+        height: 100%;
+    }
+
+    .col-md-9 .row {
+        height: 100%;
+    }
+    
+    #plushToysContainer .card {
+        width: 46%;
+        margin-left: 7px;
+        height: 430px;
+    }
+    
+    #plushToysContainer .card img:nth-child(1) {
+        height: 300px;
+    }
+
+    #plushToysContainer .card:nth-child(3) {
+        margin-left: 5px;
+        margin-top: 0px;
+        width: 214px;
+    }
+
+
+    #plushToysContainer .card:nth-child(4) {
+        margin-left: -225px;
+        margin-top: 450px;
+        width: 214px;
+    }
+
+    #plushToysContainer .card:nth-child(5) {
+        margin-left: -690px;
+        margin-top: 455px;
+        width: 214px;
+    }
+    
+    #plushToysContainer .card button,
+    #plushToysContainer .card:nth-child(4) .addToCartBtn {
+        margin-left: 80px;
+        margin-top: 362px;
+        font-size: 12px;
+    }
+        
+    #plushToysContainer .card .card-body h4 {
+        padding-top: 0;
+    }
+
+    #plushToysContainer .card:nth-child(5) .cart-quantity-input,
+    #plushToysContainer .card:nth-child(6) .cart-quantity-input {
+        margin-top: 10px;
+    }
+    
+    #plushToysContainer .card:nth-child(5) .addToCartBtn,
+    #plushToysContainer .card:nth-child(6) .addToCartBtn {
+        margin-left: 80px;
+        margin-top: 369px;
+    }
+
+    #plushToysContainer .card .card-body h5 {
+        font-size: 12px;
+    }
+    
+    #plushToysContainer .card .card-body h4 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    .bi-c-circle::before {
+         font-size: 12px;
+       }
+}
+
+@media screen and (max-width: 425px) {
+    .mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 260px;
+        margin-left: 40px;
+    }
+
+    .form-control {
+        width: 260px;
+        margin-left: 0px;
+    }
+
+    .mb-md-0 {
+        padding-left: 0px;
+        margin-left: 70px;
+        margin-right: 0px;
+        width: 130px;
+    }
+    
+    .cart-count{
+        top: 124px;
+        right: 260px;
+    }
+    
+    .text-end {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #google-login-btn {
+        margin-left: 30px;
+        margin-right: 0;
+        font-size: 12px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .menu-container {
+        margin: 0px 20px;
+    }
+    
+    .menu-container .row {
+        margin-right: 20px;
+        height: 100%;
+    }
+    
+    .col-md-3 {
+        height: 360px;
+    }
+    
+    .nav.flex-column {
+        height: 360px; 
+    }
+     
+    .nav.flex-column a {
+        height: 40px;
+        font-size: 13px;
+
+    }
+
+    .nav.flex-column h4 {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    
+    .col-md-9 {
+        height: 100%;
+    }
+    
+    #plushToysContainer .card {
+        width: 166px;
+        margin-left: 0px;
+        height: 330px;
+    }
+
+    #plushToysContainer .card .card-body {
+        padding: 10px 1px;
+    }
+
+    #plushToysContainer .card:nth-child(-n+8) button.addToCartBtn {
+        overflow: hidden;  
+        font-size: 0;
+        max-height: 40px;
+        padding-bottom: 2px;
+    }
+    
+    #plushToysContainer .card img:nth-child(1) {
+        height: 200px;
+    }
+
+    
+    #plushToysContainer .card:nth-child(3) {
+        margin-left: 5px;
+        margin-top: 0px;
+        width: 164px;
+    }
+
+
+    #plushToysContainer .card:nth-child(4) {
+        margin-left: -180px;
+        margin-top: 350px;
+        width: 164px;
+    }
+
+    #plushToysContainer .card:nth-child(5) {
+        margin-left: -520px;
+        margin-top: 350px;
+        width: 164px;
+    }
+
+    #plushToysContainer .card:nth-child(1) .cart-quantity-input {
+        margin-top: 12px;
+    }
+
+    #plushToysContainer .card:nth-child(2),
+    #plushToysContainer .card:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    #plushToysContainer .card:nth-child(1) .addToCartBtn,
+    #plushToysContainer .card:nth-child(2) .addToCartBtn,
+    #plushToysContainer .card:nth-child(5) .addToCartBtn {
+        margin-left: 92px;
+        margin-top: 267px;
+        font-size: 12px;
+    }
+
+    #plushToysContainer .card:nth-child(3) .addToCartBtn,
+    #plushToysContainer .card:nth-child(4) .addToCartBtn {
+        margin-left: 92px;
+        margin-top: 255px;
+    }
+
+    #plushToysContainer .card .card-body h4 {
+        padding-top: 0;
+    }
+      
+    #plushToysContainer .card:nth-child(4) h5 {
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+ 
+    .col-md-12 h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .bi-c-circle::before {
+        font-size: 12px;
+    }
+    
+    .col-md-12 {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 166px;
+        margin-bottom: 20px;
+        height: 330px;
+    }
+
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 200px;
+    }
+
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn, 
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn,
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn,
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 96px;
+        margin-top: 258px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 330px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        position: absolute;
+        margin-left: 175px;
+        margin-top: 1050px;
+        width: 166px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mb-lg-0 {
+        margin-left: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 240px;
+        margin-left: 30px;
+    }
+
+    .form-control {
+        width: 240px;
+        margin-left: 0px;
+    }
+
+    .mb-md-0 {
+        padding-left: 0px;
+        margin-left: 70px;
+        margin-right: 0px;
+        width: 130px;
+    }
+    
+    .cart-count{
+        top: 115px;
+        right: 222px;
+    }
+    
+    .text-end {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #google-login-btn {
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menu-container {
+        margin: 0px 20px;
+    }
+    
+    .menu-container .row {
+        margin-right: 20px;
+        height: 100%;
+    }
+    
+    .col-md-3 {
+        height: 360px;
+    }
+    
+    .nav.flex-column {
+        height: 360px; 
+    }
+     
+    .nav.flex-column a {
+        height: 40px;
+        font-size: 12px;
+
+    }
+
+    .nav.flex-column h4 {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    
+    .col-md-9 {
+        height: 100%;
+    }
+    
+    #plushToysContainer .card {
+        width: 146px;
+        margin-left: 0px;
+        height: 290px;
+    }
+    
+    #plushToysContainer .card img:nth-child(1) {
+        height: 170px;
+    }
+
+    #plushToysContainer .card:nth-child(3) {
+        margin-left: 5px;
+        margin-top: 0px;
+        width: 144px;
+    }
+
+
+    #plushToysContainer .card:nth-child(4) {
+        margin-left: -155px;
+        margin-top: 310px;
+        width: 144px;
+    }
+
+    #plushToysContainer .card:nth-child(5) {
+        margin-left: -450px;
+        margin-top: 310px;
+        width: 144px;
+    }
+
+    #plushToysContainer .card:nth-child(1) .addToCartBtn,
+    #plushToysContainer .card:nth-child(2) .addToCartBtn,
+    #plushToysContainer .card:nth-child(5) .addToCartBtn {
+        margin-left: 82px;
+        margin-top: 233px;
+        font-size: 12px;
+    }
+
+    #plushToysContainer .card:nth-child(3) .addToCartBtn,
+    #plushToysContainer .card:nth-child(4) .addToCartBtn {
+        margin-left: 82px;
+        margin-top: 223px;
+    }
+        
+    #plushToysContainer .card .card-body h4,
+    #plushToysContainer .card .card-body h5 {
+        font-size: 11px;
+    }
+
+    #plushToysContainer .card:nth-child(4) .cart-quantity-input {
+        margin-top: 10px;
+    }
+
+    #plushToysContainer .card:nth-child(5) .cart-quantity-input,
+    #plushToysContainer .card:nth-child(6) .cart-quantity-input {
+        margin-top: 0;
+    }
+ 
+    .col-md-12 h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    
+    .bi-c-circle::before {
+        font-size: 12px;
+    }
+    
+    .col-md-12 {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 142px;
+        height: 290px;
+    }
+
+    #insertFeaturedProducts .addToCartBtn .bi-ca {
+        font-size: 20px;
+    }
+
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 180px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn, 
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn {
+        margin-left: 77px;
+        margin-top: 228px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 300px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        margin-left: 150px;
+        margin-top: 930px;
+        width: 142px;
+        height: 300px;
+    }
+
+    #insertFeaturedProducts .card .card-body h4 {
+        padding-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn {
+        margin-left: 77px;
+        margin-top: 233px;
+    }
+    
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn,
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 77px;
+        margin-top: 237px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .mb-lg-0 {
+        padding-right: 0;
+    }
+
+    .mb-lg-0.mb-3 {
+        width: 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width: 120px;
+        margin-right: 2px;
+    }
+
+    #searchButton {
+        font-size: 11px;
+        padding: 3px 3px;
+    }
+
+    #insertSearchedProducts {
+        margin-top: 23px;
+        margin-left: -10px;
+    }
+
+    .mb-md-0 {
+        padding-left: 0px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 120px;
+    }
+    
+    .cart-count{
+        top: 100px;
+        right: 193px;
+    }
+
+    #google-login-btn {
+        margin-left: 3px;
+        margin-right: 0;
+        font-size: 11px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .col-md-3 {
+        height: 330px;
+    }
+    
+    .nav.flex-column {
+        height: 330px; 
+    }
+     
+    .nav.flex-column a {
+        height: 35px;
+        font-size: 12px;
+
+    }
+
+    .nav.flex-column h4 {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    
+    .col-md-9 {
+        height: 100%;
+    }
+    
+    #plushToysContainer .card {
+        width: 121px;
+        margin-left: 0px;
+        height: 250px;
+    }
+
+    #plushToysContainer .card .card-body {
+        padding: 11px 1px;
+    }
+
+    #plushToysContainer .card:nth-child(3) {
+        margin-left: 5px;
+        margin-top: 0px;
+        width: 120px;
+    }
+
+
+    #plushToysContainer .card:nth-child(4) {
+        margin-left: -130px;
+        margin-top: 270px;
+        width: 120px;
+    }
+
+    #plushToysContainer .card:nth-child(5) {
+        margin-left: -380px;
+        margin-top: 270px;
+        width: 120px;
+    }
+
+    #plushToysContainer .card img:nth-child(1) {
+        height: 140px;
+    }
+
+    #plushToysContainer .card:nth-child(1) .cart-quantity-input {
+        margin-top: 0;
+    }
+    
+    #plushToysContainer .card:nth-child(4) .cart-quantity-input {
+        margin-top: 10px;
+    }
+    
+    #plushToysContainer .card:nth-child(1) .addToCartBtn,
+    #plushToysContainer .card:nth-child(2) .addToCartBtn,
+    #plushToysContainer .card:nth-child(5) .addToCartBtn {
+        margin-left: 62px;
+        margin-top: 200px;
+    }
+
+    #plushToysContainer .card:nth-child(3) .addToCartBtn,
+    #plushToysContainer .card:nth-child(4) .addToCartBtn {
+        margin-left: 62px;
+        margin-top: 195px;
+    }
+        
+    #plushToysContainer .card .card-body h4 {
+        font-size: 10px;
+    }
+
+    #plushToysContainer .card .card-body h5 {
+        font-size: 10px;
+    }
+
+    .col-md-12 h2 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    
+    .bi-c-circle::before {
+        font-size: 10px;
+    }
+    
+    .col-md-12 {
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    #insertFeaturedProducts .card {
+        width: 115px;
+        height: 250px;
+    }
+
+    #insertFeaturedProducts .addToCartBtn .bi-ca {
+        font-size: 16px;
+    }
+
+    #insertFeaturedProducts .card img:nth-child(1){
+        height: 135px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .addToCartBtn,
+    #insertFeaturedProducts .card:nth-child(2) .addToCartBtn, 
+    #insertFeaturedProducts .card:nth-child(3) .addToCartBtn,
+    #insertFeaturedProducts div:nth-child(5) button.addToCartBtn,
+    #insertFeaturedProducts div:nth-child(6) button.addToCartBtn {
+        margin-left: 50px;
+        margin-top: 198px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(7) {
+        height: 270px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(8) {
+        margin-left: 123px;
+        margin-top: 810px;
+        width: 114px;
+        height: 270px;
+    }
+
+    #insertFeaturedProducts .card .card-body h4 {
+        padding-top: 2px;
+        margin-bottom: 2px;
+        font-size: 10px;
+    }
+
+    #insertFeaturedProducts .card .card-body h5 {
+        font-size: 10px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(4) .addToCartBtn {
+        margin-left: 50px;
+        margin-top: 198px;
+    }
+    
+    #insertFeaturedProducts div:nth-child(7) button.addToCartBtn,
+    #insertFeaturedProducts div:last-child button.addToCartBtn {
+        margin-left: 50px;
+        margin-top: 210px;
+    }
+    
+    #insertFeaturedProducts .card:nth-child(2) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(5) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(7) .cart-quantity-input {
+        margin-top: 10px;
+        width: 22px;
+    }
+
+    #insertFeaturedProducts .card:nth-child(1) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(3) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(4) .cart-quantity-input,
+    #insertFeaturedProducts .card:nth-child(6) .cart-quantity-input {
+        width: 22px;
+    }
+
+    #insertFeaturedProducts .card:last-child .cart-quantity-input {
+        width: 22px;
+    }
+}
